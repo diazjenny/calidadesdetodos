@@ -206,19 +206,23 @@ p {
 /* Estructura Cabezote */
 
 header {
-  width: 950px;
-  margin: 30px auto 30px;
+  width: 1150px;
+  margin: 30px auto 0;
 }
 
 nav {
-  width: 950px;
-  margin: 30px auto 0;
+  width: 1150px;
+  margin: 55px 0;
+  padding: 0 15px;
   text-align: center;
+  display: inline-block;
 }
 
 nav li {
-  display: inline-block;
-  padding: 0 20px 0 20px;
+  position: relative;
+  float: left;
+  list-style: none;
+  padding: 0 15px;
   border-right: #ccc solid 3px;
 }
 
@@ -228,10 +232,38 @@ nav li:last-child {
 
 nav li a {
   color: #707070;
+  display: block;
 }
 
 nav li a:hover {
-  color: #f42f63;
+  background-color: #f42f63;
+  color: #ffffff;
+  padding: 0 10px;
+}
+
+#menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  padding: 0;
+}
+
+#menu ul ul li {
+  float: none;
+  width: 150px;
+  border: none;
+  text-align: start;
+}
+
+#menu ul ul a {
+  line-height: 120%;
+  margin: 5px 0px;
+}
+
+#menu ul li:hover > ul {
+  display: block;
 }
 
 .boton-interno {
