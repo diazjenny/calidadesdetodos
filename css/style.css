@@ -700,6 +700,20 @@ nav li a:hover {
   margin-bottom: 5px;
 }
 
+/* FEN */
+.articulo-fen ol {
+  margin: 20px 0 20px 40px;
+  list-style-type: lower-alpha !important;
+}
+
+.articulo-fen ul {
+  margin: 20px 0 20px 40px;
+}
+.articulo-fen ul li::marker {
+  color: #f42f63;
+  font-size: 20px;
+}
+
 /* ==========================================================================
 
 AJUSTES
