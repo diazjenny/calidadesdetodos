@@ -713,7 +713,16 @@ nav li a:hover {
   color: #f42f63;
   font-size: 20px;
 }
-
+/* Foros*/
+.articulo-foro ol {
+  margin: 20px 0 20px 40px;
+}
+/* Talleres*/
+.articulo-talleres {
+  font-size: 32px !important;
+  font-weight: bold !important;
+  margin-bottom: 20px !important;
+}
 /* ==========================================================================
 
 AJUSTES
