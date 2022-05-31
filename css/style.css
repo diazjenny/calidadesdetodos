@@ -216,6 +216,7 @@ nav {
   padding: 0 15px;
   text-align: center;
   display: inline-block;
+ 
 }
 
 nav li {
@@ -224,6 +225,8 @@ nav li {
   list-style: none;
   padding: 0 15px;
   border-right: #ccc solid 3px;
+  background-color: #ffffff;
+  z-index: 1;
 }
 
 nav li:last-child {
@@ -238,7 +241,7 @@ nav li a {
 nav li a:hover {
   background-color: #f42f63;
   color: #ffffff;
-  padding: 0 10px;
+  padding: 0 10px;  
 }
 
 #menu ul ul {
@@ -246,24 +249,26 @@ nav li a:hover {
   position: absolute;
   top: 100%;
   left: 0;
-
   padding: 0;
+  
 }
 
 #menu ul ul li {
   float: none;
   width: 150px;
   border: none;
-  text-align: start;
+  text-align: start;  
+  
 }
 
 #menu ul ul a {
   line-height: 120%;
-  margin: 5px 0px;
+  padding: 3px 0px;
 }
 
 #menu ul li:hover > ul {
   display: block;
+  
 }
 
 .boton-interno {
@@ -722,6 +727,17 @@ nav li a:hover {
   font-size: 32px !important;
   font-weight: bold !important;
   margin-bottom: 20px !important;
+}
+.lista-2022 ul li{
+  list-style:none;  
+}
+.centrar{
+  text-align : center;
+  width: 100%;
+}
+.listas{
+  margin: 20px 0 20px 40px;
+  line-height: 1.4;
 }
 /* ==========================================================================
 
